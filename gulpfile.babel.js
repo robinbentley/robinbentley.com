@@ -1,4 +1,4 @@
-// utilies
+// utilities
 import Gulp from 'gulp'
 import del from 'del'
 

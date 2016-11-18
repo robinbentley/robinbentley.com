@@ -1,6 +1,12 @@
 #!/bin/bash
 
-# let's roll...
+# only deploy from the master branch
+if [ $(git rev-parse --abbrev-ref HEAD) != "master" ]; then
+  echo -e "\033[0;31mOoops, you're attempting to deploy from a branch other than master.\033[0m"
+  exit
+fi
+
+# ok..let's roll...
 echo -e "\033[0;32mStarting deployment...\033[0m"
 
 # terminate when anything fails
