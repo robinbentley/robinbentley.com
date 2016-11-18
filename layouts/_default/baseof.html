@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{if .IsHome }}{{.Site.Title}}{{else}}{{.Title}} - {{.Site.Title}}{{end}}</title>
+  <meta name="description" content="{{if .Description}}{{.Description}}{{else}}{{.Site.Params.description}}{{end}}">
+
+  <meta content="{{if .IsHome }}{{.Site.Title}}{{else}}{{.Title}} - {{.Site.Title}}{{end}}" property="og:title">
+  <meta content="{{if .Description}}{{.Description}}{{else}}{{.Site.Params.description}}{{end}}" property="og:description">
+
+  <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16" />
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/css/site.css">
+</head>
+<body>
+<header>
+  <a href="/" class="logo" title="Robin Bentley | Front-end Developer">Robin Bentley</a>
+</header>
+{{ block "main" .}}
+{{ end }}
+{{partial "analytics.html"}}
+</body>
+</html>

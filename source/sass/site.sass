@@ -1,0 +1,56 @@
+// Quick styles for holding page
+@charset "UTF-8"
+@import "normalize.css/normalize"
+
+*,
+*:before,
+*:after
+  box-sizing: border-box
+
+body
+  font-family: 'Open Sans', sans-serif
+  font-size: 16px
+  padding: 40px
+  color: #3a4f6b
+
+  @media screen and (max-width: 600px)
+    text-align: center
+
+.logo
+  display: block
+  margin-bottom: 40px
+  width: 140px
+  height: 110px
+  text-indent: -9999px
+  overflow: hidden
+  background: url("../images/logo.svg") no-repeat 0 0
+  background-size: contain
+
+  @media screen and (max-width: 600px)
+    margin: 0 auto 20px
+    width: 100px
+    height: 80px
+
+h1
+  font-size: 30px
+  font-weight: 600
+
+  @media screen and (max-width: 600px)
+    font-size: 24px
+
+    span
+      display: block
+
+p
+  line-height: 1.5
+  max-width: 500px
+
+a,
+a:visited
+  font-weight: 600
+  text-decoration: none
+  color: #2c302e
+  transition: color 250ms ease-in-out
+
+  &:hover
+    color: #009688
