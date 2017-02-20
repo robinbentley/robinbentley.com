@@ -13,6 +13,8 @@ echo -e "\033[0;32mStarting deployment...\033[0m"
 set -e
 
 # switch into the public directory remove any .DS_Store files
+# note: could probably echo out a simple .gitignore when the repo is created
+# but i don't feel it's worth it for one thing
 cd public
 find . -name '.DS_Store' -type f -delete
 
