@@ -12,11 +12,8 @@ echo -e "\033[0;32mStarting deployment...\033[0m"
 # terminate when anything fails
 set -e
 
-# switch into the public directory remove any .DS_Store files
-# note: could probably echo out a simple .gitignore when the repo is created
-# but i don't feel it's worth it for one thing
+# switch into the public directory
 cd public
-find . -name '.DS_Store' -type f -delete
 
 # create a new git repo in pubic and commit all files
 echo -e "\033[0;32mInitialize repo...\033[0m"
