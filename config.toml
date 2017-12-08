@@ -1,10 +1,15 @@
 baseurl = "https://www.robinbentley.com/"
-title = "Robin Bentley | Front-end Developer"
+title = "Robin Bentley - Front-end Developer"
 languageCode = "en-gb"
 
 [params]
+  author = "Robin Bentley"
   description = "Manchester based Front-end / UI developer. Bringing designs to life with great performance and engaging UX"
 
 [social]
   github = "https://github.com/robinbentley"
   linkedin = "https://www.linkedin.com/in/robin-bentley-84640183"
+
+[permalinks]
+  post = "/:year/:month/:title/"
+  page = "/:slug/"
