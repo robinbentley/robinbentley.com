@@ -6,10 +6,10 @@
   "scripts": {
     "dev": "concurrently -k \"gulp\" \"hugo server --buildDrafts\"",
     "build": "rm -rf public/ && hugo && gulp htmlmin",
-    "preview": "yarn run build && http-server -p 1337",
-    "deploy": "yarn run build && ./deploy.sh"
+    "preview": "npm run build && http-server -p 1337",
+    "deploy": "npm run build && ./deploy.sh"
   },
-  "dependencies": {
+  "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-preset-es2015": "^6.18.0",
     "concurrently": "^3.1.0",
@@ -19,6 +19,7 @@
     "gulp-htmlmin": "^3.0.0",
     "gulp-imagemin": "^3.1.1",
     "gulp-sass": "^2.3.2",
+    "http-server": "^0.10.0",
     "normalize.css": "^5.0.0"
   },
   "babel": {
