@@ -1,5 +1,5 @@
 // utilities
-import Gulp from 'gulp'
+import gulp from 'gulp'
 import del from 'del'
 
 // styling
@@ -13,8 +13,8 @@ import imagemin from 'gulp-imagemin'
 import htmlmin from 'gulp-htmlmin'
 
 // compile sass and process with cssnano
-Gulp.task('styles', () => {
-  Gulp.src('./source/sass/site.sass')
+gulp.task('styles', () => {
+  gulp.src('./source/sass/site.sass')
     .pipe(sass({
       indentedSyntax: true,
       includePaths: ['node_modules']
@@ -23,26 +23,26 @@ Gulp.task('styles', () => {
       autoprefixer: {browsers: ['last 2 versions'], add: true},
       discardComments: {removeAll: true}
     }))
-    .pipe(Gulp.dest('./static/css/'))
+    .pipe(gulp.dest('./static/css/'))
 })
 
 // optimize image assets
-Gulp.task('images', () => {
-  Gulp.src('./source/images/**/*.{png,jpg,jpeg,gif,svg}')
+gulp.task('images', () => {
+  gulp.src('./source/images/**/*.{png,jpg,jpeg,gif,svg}')
     .pipe(imagemin())
-    .pipe(Gulp.dest('./static/images/'))
+    .pipe(gulp.dest('./static/images/'))
 })
 
 // minify html files (hugo doesn't currently do this by default)
-Gulp.task('htmlmin', () => {
-  Gulp.src('./public/**/*.html')
+gulp.task('htmlmin', () => {
+  gulp.src('./public/**/*.html')
     .pipe(htmlmin({
       collapseWhitespace: true
     }))
-    .pipe(Gulp.dest('./public/'))
+    .pipe(gulp.dest('./public/'))
 })
 
 // default task to watch and compile assets
-Gulp.task('default', () => {
-  Gulp.watch('./source/sass/**/*.{sass,scss,css}', ['styles']);
+gulp.task('default', () => {
+  gulp.watch('./source/sass/**/*.{sass,scss,css}', ['styles']);
 })
