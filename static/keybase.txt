@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/robinbentley
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://robinbentley.com
+  * I am robinbentley (https://keybase.io/robinbentley) on keybase.
+  * I have a public key ASDqSGrI-7WBzykyithM5F-5b7P-XnvHWKRR5WGWpZryxgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120633aebe3a1e455357cc2a2e22288beb5ed7cb602cbc07ba8a5d7d854ba7c3e310a",
+      "host": "keybase.io",
+      "kid": "0120ea486ac8fbb581cf29328ad84ce45fb96fb3fe5e7bc758a451e56196a59af2c60a",
+      "uid": "3c2501788f9130e99af365b8de858719",
+      "username": "robinbentley"
+    },
+    "merkle_root": {
+      "ctime": 1516008510,
+      "hash": "a367d2ec90b7dca2b0783484fb0415dc7b1facf6dd596de586a1ce899c39b7c91ba76bfbca7c6137aa77245dac0571caf4119a6aba192f7d973c6cdf4449e354",
+      "hash_meta": "04e536b4d069b82fc98a0b4584cd33ed6a292f42a8fbfea3477eedfc34a51186",
+      "seqno": 1927701
+    },
+    "service": {
+      "hostname": "robinbentley.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.38"
+  },
+  "ctime": 1516008546,
+  "expire_in": 504576000,
+  "prev": "88efc53e59c03f4efb8c41df1a32c194eba17067a9a7ad6fa9d6c1fea155250e",
+  "seqno": 35,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg6khqyPu1gc8pMorYTORfuW+z/l57x1ikUeVhlqWa8sYKp3BheWxvYWTFA017ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNjMzYWViZTNhMWU0NTUzNTdjYzJhMmUyMjI4OGJlYjVlZDdjYjYwMmNiYzA3YmE4YTVkN2Q4NTRiYTdjM2UzMTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZWE0ODZhYzhmYmI1ODFjZjI5MzI4YWQ4NGNlNDVmYjk2ZmIzZmU1ZTdiYzc1OGE0NTFlNTYxOTZhNTlhZjJjNjBhIiwidWlkIjoiM2MyNTAxNzg4ZjkxMzBlOTlhZjM2NWI4ZGU4NTg3MTkiLCJ1c2VybmFtZSI6InJvYmluYmVudGxleSJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUxNjAwODUxMCwiaGFzaCI6ImEzNjdkMmVjOTBiN2RjYTJiMDc4MzQ4NGZiMDQxNWRjN2IxZmFjZjZkZDU5NmRlNTg2YTFjZTg5OWMzOWI3YzkxYmE3NmJmYmNhN2M2MTM3YWE3NzI0NWRhYzA1NzFjYWY0MTE5YTZhYmExOTJmN2Q5NzNjNmNkZjQ0NDllMzU0IiwiaGFzaF9tZXRhIjoiMDRlNTM2YjRkMDY5YjgyZmM5OGEwYjQ1ODRjZDMzZWQ2YTI5MmY0MmE4ZmJmZWEzNDc3ZWVkZmMzNGE1MTE4NiIsInNlcW5vIjoxOTI3NzAxfSwic2VydmljZSI6eyJob3N0bmFtZSI6InJvYmluYmVudGxleS5jb20iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zOCJ9LCJjdGltZSI6MTUxNjAwODU0NiwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI4OGVmYzUzZTU5YzAzZjRlZmI4YzQxZGYxYTMyYzE5NGViYTE3MDY3YTlhN2FkNmZhOWQ2YzFmZWExNTUyNTBlIiwic2Vxbm8iOjM1LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQC77hfkL6tnXysplYwGz8DS+jXN6AwKQYco4qKyw1a7ZAv2nYHfVQtqWb9wWSraBnCIei4o8WqjYyFjjL3I/qAioc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDs1km3ZeyapC26vwnkB6jDIwWI945SvKWtsV/eWwLn4KN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/robinbentley
+
+==================================================================
