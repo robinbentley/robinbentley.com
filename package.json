@@ -10,17 +10,17 @@
     "deploy": "npm run build && ./deploy.sh"
   },
   "devDependencies": {
-    "babel-cli": "^6.18.0",
-    "babel-preset-es2015": "^6.18.0",
-    "concurrently": "^3.1.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "concurrently": "^4.1.0",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "gulp-cssnano": "^2.1.2",
-    "gulp-htmlmin": "^3.0.0",
-    "gulp-imagemin": "^4.0.0",
-    "gulp-sass": "^3.1.0",
-    "http-server": "^0.10.0",
-    "normalize.css": "^7.0.0"
+    "gulp-cssnano": "^2.1.3",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.2",
+    "http-server": "^0.11.1",
+    "normalize.css": "^8.0.1"
   },
   "babel": {
     "presets": [
