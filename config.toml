@@ -8,7 +8,7 @@ languageCode = "en-gb"
 
 [social]
   github = "https://github.com/robinbentley"
-  linkedin = "https://www.linkedin.com/in/robin-bentley-84640183"
+  linkedin = "https://www.linkedin.com/in/robin-bentley"
 
 [permalinks]
   post = "/:year/:month/:title/"
