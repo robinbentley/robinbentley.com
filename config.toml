@@ -13,3 +13,5 @@ languageCode = "en-gb"
 [permalinks]
   post = "/:year/:month/:title/"
   page = "/:slug/"
+
+[Taxonomies]
