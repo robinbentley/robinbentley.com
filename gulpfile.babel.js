@@ -35,7 +35,7 @@ gulp.task('images', () => {
 
 // minify html files (hugo doesn't currently do this by default)
 gulp.task('htmlmin', () => {
-  gulp.src('./public/**/*.html')
+  return gulp.src('./public/**/*.html')
     .pipe(htmlmin({
       collapseWhitespace: true
     }))
