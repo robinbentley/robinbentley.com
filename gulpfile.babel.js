@@ -44,5 +44,5 @@ gulp.task('htmlmin', () => {
 
 // default task to watch and compile assets
 gulp.task('default', () => {
-  gulp.watch('./source/sass/**/*.{sass,scss,css}', ['styles']);
+  gulp.watch('./source/sass/**/*.{sass,scss,css}', gulp.series('styles'));
 })
