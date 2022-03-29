@@ -1,3 +1,5 @@
+.hugo_build.lock
+
 # Created by https://www.gitignore.io/api/macos,linux,vim,sublimetext,linux,hugo,node,sass,go
 
 ### macOS ###

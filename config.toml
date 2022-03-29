@@ -1,10 +1,10 @@
 baseurl = "https://www.robinbentley.com/"
-title = "Robin Bentley - Front-end Developer"
+title = "Robin Bentley - Senior Developer"
 languageCode = "en-gb"
 
 [params]
   author = "Robin Bentley"
-  description = "Manchester based Front-end / UI developer. Bringing designs to life with great performance and engaging UX"
+  description = "Manchester based senior developer. Currently working with Node, React and Typescript"
 
 [social]
   github = "https://github.com/robinbentley"
